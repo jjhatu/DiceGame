@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #facffa;
+  margin: 0;
+  padding: 0;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px;
+  background: #e188cc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  color: #e2f8e3;
+  font-size: 2.5rem;
+}
+
+.scores {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.scores div {
+  width: 45%;
+  text-align: center;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dice-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 30px 0;
+}
+.dice-container .dice {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  background: #fff;
+  border: 2px solid #e0e0e0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s ease;
+}
+.dice-container .dice:hover {
+  transform: scale(1.1);
+}
+
+.controls {
+  margin-top: 20px;
+}
+.controls button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e2f8e3;
+  color: #ef18e4;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.controls button:hover {
+  background-color: #b9eebb;
+}
+
+#winner-message {
+  color: rgba(6, 213, 37, 0.8862745098);
+  margin-top: 20px;
+  font-size: 1.5rem;
+}/*# sourceMappingURL=styles.css.map */

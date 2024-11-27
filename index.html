@@ -1,0 +1,40 @@
+<meta charset="UTF-8">
+<meta name="author" content="Jaskirat"/>
+<meta name="description" content="Project"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/styles.scss"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/project.js" defer></script>
+<title>Dice Game Project</title>
+
+<body>
+    <div class="game-container">
+      <h1>Dice Game</h1>
+      <div class="scores">
+        <div>
+          <h2>Player</h2>
+          <div id="player-dice" class="dice-container">
+            <img src="images/dice1.png" alt="Dice" class="dice">
+            <img src="images/dice1.png" alt="Dice" class="dice">
+          </div>
+          <p>Round Score: <span id="player-round-score">0</span></p>
+          <p>Total Score: <span id="player-total-score">0</span></p>
+        </div>
+        <div>
+          <h2>Computer</h2>
+          <div id="computer-dice" class="dice-container">
+            <img src="images/dice1.png" alt="Dice" class="dice">
+            <img src="images/dice1.png" alt="Dice" class="dice">
+          </div>
+          <p>Round Score: <span id="computer-round-score">0</span></p>
+          <p>Total Score: <span id="computer-total-score">0</span></p>
+        </div>
+      </div>
+      <div class="controls">
+        <button id="roll-dice">Roll Dice</button>
+        <button id="reset-game">Reset Game</button>
+      </div>
+      <h2 id="winner-message"></h2>
+    </div>
+  </body>
+  </html>
